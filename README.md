@@ -72,7 +72,7 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 ***************
 Конфигурирование приложения
 ***************
--  `autoload.php:`_
+`autoload.php:`_
 -  61 $autoload['libraries'] = array('database','session');
 -  92 $autoload['helper'] = array('form','url');
 
