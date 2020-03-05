@@ -72,9 +72,9 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 ***************
 Конфигурирование приложения
 ***************
-autoload.php:
-61 $autoload['libraries'] = array('database','session');
-92 $autoload['helper'] = array('form','url');
+-  `autoload.php:`_
+-  `61 $autoload['libraries'] = array('database','session');`_
+-  `92 $autoload['helper'] = array('form','url');`_
 
 routs.php:
 52 $route['default_controller'] = 'home';
