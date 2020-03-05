@@ -68,3 +68,22 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+***************
+Конфигурирование приложения
+***************
+autoload.php:
+61 $autoload['libraries'] = array('database','session');
+92 $autoload['helper'] = array('form','url');
+
+routs.php:
+52 $route['default_controller'] = 'home';
+
+config.php:
+26 $config['base_url'] = 'http://my-codeigniter-app/';
+
+database.php:
+78 $db['default']['hostname'] = 'localhost';
+79 $db['default']['username'] = 'root';
+80 $db['default']['password'] = '';
+81 $db['default']['database'] = 'my-db-name';
